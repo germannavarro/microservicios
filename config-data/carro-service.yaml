@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: carro-service
+  cloud:
+    inetutils:
+      timeout-seconds: 10
 eureka:
   client:
     fetch-registry: true

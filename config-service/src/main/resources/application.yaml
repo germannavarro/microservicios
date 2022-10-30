@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: multiple-instances # rama en git
+          default-label: gateway # rama en git
           uri: https://github.com/germannavarro/microservicios.git
           search-paths: config-data
   application:
